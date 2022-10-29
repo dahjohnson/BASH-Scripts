@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Add new user script
-:
+
 #Checking for Root/sudo privileges
 if [ "$EUID" -ne 0 ]
 then 
