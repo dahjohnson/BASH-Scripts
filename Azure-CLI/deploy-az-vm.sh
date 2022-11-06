@@ -18,7 +18,7 @@ image="Win2022Datacenter"
 pip=$(curl -s -4 icanhazip.com)
 
 #Public Ip of Azure VM (Not in Use)
-#vm_pip=$(az vm show -d -g $rg_name -n $vm_name --query publicIps -o tsv)
+vm_pip=$(az vm show -d -g $rg_name -n $vm_name --query publicIps -o tsv)
 
 #####################################################
 ##########   Confirm Azure Subscription    ##########
