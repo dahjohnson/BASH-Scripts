@@ -176,7 +176,7 @@ if
 then
 echo
 echo "Success!😊"
-echo -e "Your VM Public IP: $blue$vm_pip$none"
+#echo -e "Your VM Public IP: $blue$vm_pip$none"
 echo
 elif
 [ ! $vm_exit_status -eq 0 ]
